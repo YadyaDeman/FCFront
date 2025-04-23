@@ -1,0 +1,14 @@
+/src
+  /components
+    /Calendar
+      CalendarPage.jsx    <-- Главный компонент
+      TaskList.jsx        <-- Для отображения списка задач
+      ProjectList.jsx     <-- Список проектов
+      NotesSection.jsx    <-- Раздел для заметок
+      Taskform.jsx        <-- Oтдельная форма для ввода задач
+
+
+      //import TaskForm from '../components/Calendar/TaskForm'; 
+//import TaskList from '../components/Calendar/TaskList'; 
+//import ProjectList from '../components/Calendar/ProjectList'; 
+//import Calendar from '../components/Calendar/Calendar'; 

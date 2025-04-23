@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Box, Typography, Paper, Button, List, ListItem, ListItemIcon, ListItemText } from "@mui/material";
-import ChatIcon from "@mui/icons-material/Chat"; // Importing Chat icon
-import SettingsIcon from "@mui/icons-material/Settings"; // Importing Settings icon
-import TaskIcon from "@mui/icons-material/Task"; // Importing Task icon
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday"; // Importing Calendar icon
-import ExitToAppIcon from "@mui/icons-material/ExitToApp"; // Importing Logout icon
+import ChatIcon from "@mui/icons-material/Chat"; //  Chat icon
+import SettingsIcon from "@mui/icons-material/Settings"; // Settings icon
+import TaskIcon from "@mui/icons-material/Task"; //  Task icon
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday"; // Calendar icon
+import ExitToAppIcon from "@mui/icons-material/ExitToApp"; // Logout icon
 
 const DashboardPage = () => {
   const navigate = useNavigate(); // Hook to navigate programmatically

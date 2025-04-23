@@ -1,14 +1,18 @@
 import { createBrowserRouter } from "react-router-dom";
-import LoginPage from "../pages/LoginPage";
-import Home from "../pages/Home";
 import App from "../App";
-import RegisterPage from "../pages/RegisterPage";
-import MessagePage from "../components/MessagePage";
 import AuthLayouts from "../layout";
+
+import LoginPage from "../pages/LoginPage";
+import RegisterPage from "../pages/RegisterPage";
+
+import HomePage from "../components/Calendar/HomePage"; 
+import Calendar from "../components/Calendar/Calendar";
+import MessagePage from "../components/MessagePage";
+
+
 import DashboardPage from "../pages/DashboardPage";
 import ChatsPage from "../pages/ChatsPage";
 import TasksPage from "../pages/TasksPage";
-import CalendarPage from "../pages/CalendarPage";
 import SettingsPage from "../pages/SettingsPage";
 
 const router = createBrowserRouter([
@@ -34,7 +38,7 @@ const router = createBrowserRouter([
       },
       {
         path: "home",
-        element: <Home />,
+        element: <HomePage />, 
       },
       {
         path: "message/:userId",
@@ -54,14 +58,12 @@ const router = createBrowserRouter([
       },
       {
         path: "calendar",
-        element: <CalendarPage />,
+        element: <Calendar />,
       },
       {
         path: "settings",
         element: <SettingsPage />,
       },
-      
-      
     ],
   },
 ]);
