@@ -22,5 +22,5 @@ export const personalData = {
   tiktokLink: '',
 
   // Work Status
-  workAvailabilityStatus: 'Available',
+  workAvailabilityStatus: 'Open to Learning and Growth',
 };
